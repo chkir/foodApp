@@ -1,3 +1,11 @@
+@import url('https://fonts.googleapis.com/css?family=Poiret+One');
+
+
+* {
+    font-family: 'Poiret One', cursive;
+    font-weight: bold;
+}
+
 .recipe {
     border-radius: 10px;
     margin: 20px;
@@ -5,13 +13,35 @@
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    width: 45%;
-    background: rgb(230,230,230);
+    width: 40%;
+    background: rgb(245,245,245);
 
+}
+
+a {
+    background: black;
+    color:rgb(230,230,230);
+    border: none;
+    padding: 10px 30px;
+    margin: 5px;
+    text-decoration: none;
+    box-shadow: 2px;
+}
+
+p {
+    font-weight: bolder;
+    font-size: 1.4em;
 }
 
 .image {
     border-radius: 50%;
     height: 200px;
     width: auto;
+}
+
+
+@media screen and (max-width: 600px) {
+    .recipe {
+        width: 90%;
+    }
 }

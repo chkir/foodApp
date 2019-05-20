@@ -1,6 +1,6 @@
 .App {
   min-height: 100vh;
-  background: rgb(22,22,22);
+  background: #40746e;
 }
 
 .search-form {
@@ -21,6 +21,7 @@
   color: black;
   border: none;
   padding: 10px 30px;
+  cursor: pointer;
 }
 
 .recipes {
